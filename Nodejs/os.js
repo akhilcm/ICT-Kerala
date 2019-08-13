@@ -5,7 +5,7 @@
 
 
 const myos=require('os');
-const myfs=require('fs')
+const myfs=require('fs');
 var userdata=myos.userInfo();
 var platform=myos.platform();
 myfs.appendFile("new.txt",userdata.username,(error)=>{
